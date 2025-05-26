@@ -1,0 +1,13 @@
+{% for post in page_obj %}
+  <div class="col-md-4">
+    <div class="post-card">
+      {% if post.image and post.image.name %}
+        <img src="{{ post.image.url }}" class="post-image" alt="Post image">
+      {% endif %}
+      <div class="post-body">
+        <div class="post-user">{{ post.user.username }}</div>
+        <div class="post-caption">{{ post.caption }}</div>
+      </div>
+    </div>
+  </div>
+{% endfor %}
