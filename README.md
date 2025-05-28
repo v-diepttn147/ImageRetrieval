@@ -55,3 +55,11 @@ Upload an image and retrieve visually similar results using FAISS.
 Retrieved posts ranked by similarity.
 
 ![Search Results](images/search-result.png)
+
+## Use Case Diagram 
+
+![Use Case Diagram](images/bigdata_usecase.png)
+
+## Flowchart
+
+![Flowchart](images/flowchart.png)
